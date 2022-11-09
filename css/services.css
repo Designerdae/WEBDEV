@@ -1,0 +1,64 @@
+.banner{
+    background: url('../images/service head.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    justify-content: center;
+}
+.banner-heading{
+    font-size: 2.5em;
+    
+    color: #ffffff;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 20px !important;
+}
+.banner p{
+    width: 45%;
+    color:  #ffffff;
+    
+    font-weight: 250;
+}
+
+#process-image img{
+    height: 15em;
+    margin-left: 3em;
+    border-radius: 10px;
+}
+
+#our-process{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4em;
+    padding: 5% 5%;
+}
+
+#our-process h1{
+    font-weight: bold;
+}
+
+#our-process p{
+    font-weight: 300;
+    margin-top: 3%;
+}
+
+#our-process .price{
+    font-weight: bold;
+}
+
+#nails-img img{
+    height: 22em;
+    border-radius: 10px;
+}
+
+#hair-img img{
+    height: 22em;
+    border-radius: 10px;
+}
